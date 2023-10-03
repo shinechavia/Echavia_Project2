@@ -436,11 +436,3 @@ i.fa {
 .audio-container {
     width: 100%;
 }
-
-#audioIcon {
-    position: absolute;
-    bottom: 30px;
-    right: 40px;
-    display: none;
-    color: white;
-}
