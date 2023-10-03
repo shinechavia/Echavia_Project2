@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Traveler Quiz Adventure</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="icon" href="images/globe.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Start Button -->
+    <h1>World Traveler Quiz Adventure</h1>
+    <div class="start_btn"><button>START</button></button></div>
+
+    <!-- Rules-->
+    <div class="info_box">
+        <div class="info-title"><span>Rules</span></div>
+        <div class="info-list">
+            <div class="info">1. You have a strict time limit of only <span>10 seconds</span> to answer each question.</div>
+            <div class="info">2. Once you make a choice, it's final, there's no going back.</div>
+            <div class="info">3. When the timer runs out, your chance to select an option is gone.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. Your score is determined by the number of correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Back</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Question</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">10</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Questions -->
+            </div>
+            <div class="option_list">
+                <!-- Options -->
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+                <!-- Question Count Number -->
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-award"></i>
+        </div>
+        <div class="score_text">
+
+            <!-- Score Result -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit</button>
+        </div>
+    </div>
+
+    <div class="audio-container">
+        <audio id="myAudio" preload="auto" autoplay loop>
+            <source id="audioSource" src="audio/detective_sound.mp3" type="audio/mpeg">
+        </audio>
+    
+        <button onclick="toggleAudio()">
+            <i id="audioIcon" class="fa fa-volume-up" style="display: none;"></i>
+        </button>
+    </div>
+    <script src="js/audio.js"></script>
+    
+    <!-- Questions and Options only -->
+    <script src="js/quiz.js"></script>
+
+    <!-- Sript Codes -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="quiz.js"></script>
+</body>
+</html>
